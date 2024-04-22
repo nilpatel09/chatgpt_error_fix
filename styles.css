@@ -1,0 +1,167 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    background-color: #ddd;
+}
+
+/* Menu Section */
+.menu {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 40px;
+}
+
+/* Special Offers Section */
+.special-offers {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* About Us Section */
+.about {
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.newsletter label {
+    color: #fff;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    background-color: #fff;
+    color: #333; /* Text color */
+    border: 1px solid #333; /* Border color */
+}
+
+.newsletter input[type="email"]::placeholder {
+    color: #666; /* Placeholder text color */
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #ddd;
+}
